@@ -1,23 +1,45 @@
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-    margin: 0;
+    font-size: 5.625rem;
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .top {
     background-color: #A91079;
+    position: relative;
+    padding-top: 100px;
 }
 
 .middle {
-    height: 200px;
-    width: 200px;
-    background-color: aqua;
+  
 }
 
 .bottom {
-    height: 200px;
-    width: 200px;
-    background-color: red;
+    
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }
